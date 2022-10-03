@@ -49,8 +49,4 @@ public class Phone {
     public String toString() {
         return id + " - " + getBrand() + " " + getModel() + " - €" + getPrice() + " (ex. BTW: €" + getVAT() + ")";
     }
-
-    public String toStringShort() {
-        return id + " - " + getBrand() + " " + getModel();
-    }
 }
